@@ -1,3 +1,4 @@
+import Button from "../../components/ui/Button";
 import Input from "../../components/ui/Input";
 import Section from "../../components/ui/Section";
 
@@ -24,9 +25,7 @@ export default function Settings() {
         </div>
 
         <div className="mt-6">
-          <button className="px-4 py-2 rounded-lg bg-primary text-white text-sm">
-            Save changes
-          </button>
+          <Button>Save changes</Button>
         </div>
       </Section>
 
@@ -41,9 +40,7 @@ export default function Settings() {
         </div>
 
         <div className="mt-6">
-          <button className="px-4 py-2 rounded-lg bg-primary text-white text-sm">
-            Update password
-          </button>
+          <Button>Update password</Button>
         </div>
       </Section>
 
@@ -59,9 +56,7 @@ export default function Settings() {
               This will permanently delete your account and all data.
             </p>
           </div>
-          <button className="px-4 py-2 rounded-lg bg-red-600 text-white text-sm">
-            Delete
-          </button>
+          <Button variant="danger">Delete</Button>
         </div>
       </Section>
     </div>

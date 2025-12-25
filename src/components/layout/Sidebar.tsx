@@ -21,7 +21,7 @@ export default function Sidebar() {
               `block px-4 py-2 rounded-lg text-sm font-medium ${
                 isActive
                   ? "bg-primary text-white"
-                  : "text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-neutral-700"
+                  : "text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-neutral-700 transition"
               }`
             }
           >
